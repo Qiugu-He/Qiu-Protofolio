@@ -1,0 +1,75 @@
+.aboutme{
+    background-color: #2e2c2c;
+    height: 90%;
+    overflow: hidden;
+    margin-top: 0px;
+   
+}
+
+/*about me*/
+.aboutme .title{
+    margin-top: 80px;
+    margin-left: 200px;
+    font-family: "Arial";
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.aboutme .para{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Arial";
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+/*my works*/
+.aboutme .title2{
+    margin-top: 80px;
+    margin-left: 200px;
+    font-family: "Arial";
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.aboutme li{
+    margin-top: 20px;
+    margin-left: 250px;
+    font-family: "Arial";
+    font-weight: normal;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* ---   future ----*/
+.future{
+    background-color:white;
+    height: 60%;
+    overflow: hidden;
+    margin-top: 0px;
+   
+}
+.future .title{
+    margin-top: 80px;
+    margin-left: 200px;
+    font-family: "Arial";
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.future li{
+    margin-top: 20px;
+    margin-left: 250px;
+    font-family: "Arial";
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+}

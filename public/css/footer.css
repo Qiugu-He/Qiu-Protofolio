@@ -1,0 +1,17 @@
+footer{
+    background-color: #2e2c2c;
+    height: 18%;
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 35px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+footer li a img{
+    padding-top: -20%;
+    height: 30px;
+}
