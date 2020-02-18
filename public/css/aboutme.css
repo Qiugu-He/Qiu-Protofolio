@@ -1,6 +1,6 @@
 .aboutme{
     background-color: #2e2c2c;
-    height: 90%;
+    height: 96%;
     overflow: hidden;
     margin-top: 0px;
    
@@ -36,7 +36,9 @@
     font-size: 30px;
     color: white;
     letter-spacing: 2px;
+    
 }
+
 
 .aboutme li{
     margin-top: 20px;

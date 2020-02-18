@@ -8,18 +8,10 @@ nodemon src/app.js -e js,hbs
 npm i express
 npm i hbs
 
-
-//publish to heroku:
-npm i -g heroku
-heroku -v
-heroku login
-heroku keys:add
-heroku create qiugu-he
-
-
 //run this app locally:
 npm run start 
 (check the package.json script)
 
 
-//
+//process of modify and update for both heroku and github
+git status
