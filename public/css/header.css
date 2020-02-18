@@ -1,6 +1,6 @@
 /* ------  header nav -------------*/
 header{
-    padding-top: 50px;
+    padding-top: 1%;
     position: fixed;
     transition: background 0.7s;
     width:100%;
@@ -9,7 +9,7 @@ header{
 header ul{
     list-style: none;
     display: flex;
-    margin-left: 150px;
+    margin-left: 12%;
 }
 header a{
     font-size: 20px;
