@@ -22,7 +22,7 @@ body, html{
     font-family: "Arial";
     color: white;
     font-weight: normal;
-    letter-spacing: 1px;
+    letter-spacing: 0.01em;
 }
 
 .main-content .readMore a img{
@@ -54,20 +54,20 @@ body, html{
 /*home - content 1*/
 .main-content .homePage1{
     clear: both;
-    margin-top: 250px;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-top: 18%;
+    margin-right: 18%;
+    margin-left: 17%;
     width: 60%;
     padding: 15px;
 
     text-align: center;
-    font-size: 35px;
+    font-size: 1em;
     font-family: "Arial";
     color: white;
 }
 .homePage1Title{
     text-align: center;
-    font-size: 35px;
+    font-size: 2.2em;
     font-weight: normal;
     letter-spacing: 1px;
 }

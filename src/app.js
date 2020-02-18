@@ -33,6 +33,13 @@ app.get('/project', (req, res)=>{
     })  
 })
 
+app.get('/resume', (req, res)=>{
+    res.render('resume', {
+       // title: 'contact page',
+        name: 'QIUGU HE'
+    })  
+})
+
 app.get('/contact', (req, res)=>{
     res.render('contact', {
        // title: 'contact page',
