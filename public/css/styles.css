@@ -19,7 +19,7 @@ body, html{
 /*read more*/
 .main-content .readMore{
     margin-top: 7%;
-    margin-left: 43%;
+    margin-left: 45%;
     font-size: 160%;
     font-family: "Arial";
     color: white;
@@ -31,7 +31,7 @@ body, html{
     color: white;
     height: 30px;
     margin-top :2%;
-    margin-left:5%;
+    margin-left:6%;
 }
 
 .bounce {
