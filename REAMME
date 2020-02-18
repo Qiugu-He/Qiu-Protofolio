@@ -15,3 +15,7 @@ npm run start
 
 //process of modify and update for both heroku and github
 git status
+git add .
+git commit -m "meg"
+git push
+git push heroku master

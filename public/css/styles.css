@@ -12,12 +12,13 @@ body, html{
     background-size: cover;
     overflow: auto;
     overflow: hidden;
+    margin: auto;
 }
 /*read more*/
 .main-content .readMore{
-    margin-top: 130px;
-    margin-left: 650px;
-    font-size: 25px;
+    margin-top: 7%;
+    margin-left: 43%;
+    font-size: 160%;
     font-family: "Arial";
     color: white;
     font-weight: normal;
