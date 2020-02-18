@@ -29,8 +29,9 @@
     margin-left: 25%;
     margin-top: 120px;
     font-family: 'Lato', sans-serif;
+    font-style: italic;
     font-size:20px;
-    color: black;
+    color: rgb(73, 71, 71);
   }
 
   button {

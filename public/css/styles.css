@@ -1,6 +1,8 @@
 body, html{
     height:100vh;
     margin: 0;
+    min-width: 810px;
+    min-height: 600px;
 }
 
 /*------ home -------------*/
@@ -78,9 +80,9 @@ body, html{
 }
 
 .homePage1Para{
-    margin-left: 70px;
-    margin-right:60px;
-    font-size: 25px;
+    margin-left: 8%;
+    margin-right:8%;
+    font-size: 1.5em;
     font-weight: normal;
     text-align: justify;
     text-align-last: center;
