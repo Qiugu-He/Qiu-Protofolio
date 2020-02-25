@@ -3,6 +3,8 @@
     height: 96%;
     overflow: hidden;
     margin-top: 0px;
+    min-width: 810px;
+    min-height: 600px;
    
 }
 
