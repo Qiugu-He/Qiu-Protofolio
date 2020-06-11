@@ -44,14 +44,15 @@
 
 /*------- Skills -----------*/ 
 .skills{
-    background-color:#A7C9CA;
-    overflow: hidden;  
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)),
+                url("../image/color9.png") center no-repeat;
+    overflow: hidden; 
 }
 .skillcontainer{
     margin-top:5%;
     margin-left:20%;
     margin-right:10%;
-    margin-bottom:20%;
+    margin-bottom:25%;
 
     font-family: 'Open Sans';
     font-weight: normal;
@@ -63,4 +64,68 @@
 .skillCol {
     float: left;
     width: 33%;
+}
+
+/*------- Projects -----------*/ 
+.projects{
+    background-color:white;
+    margin-top:5%;
+}
+.projectcontainer{
+    margin-left:10%;
+    margin-right:10%;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 17px;
+    color: black;
+    text-align: left;
+}
+
+.projectheader{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 30px;
+    color: black;
+}
+
+
+.img-responsives2{
+    max-width:100%;
+    max-height:100%
+}
+
+.projectCol1 {
+    margin-bottom:4%;
+    float: left;
+    width: 35%;
+}
+
+.projectCol2 {
+    margin-bottom:3%;
+    float: left;
+    width: 40%;
+    margin-left:10%;
+}
+
+.img-responsives{
+    max-width:50%;
+    max-height:50%
+}
+
+.projecttitle{
+    text-align: left;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+
+.projectpara{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    text-align: left;
 }
