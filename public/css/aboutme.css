@@ -1,34 +1,47 @@
 .aboutme{
-    background-color: #2e2c2c;
-    height: 96%;
+    background-color: #DFE8CF;
     overflow: hidden;
-    margin-top: 0px;
-    min-width: 810px;
-    min-height: 600px;
-   
+    margin-top: 0px;   
 }
 
-/*about me*/
-.aboutme .title{
-    margin-top: 80px;
-    margin-left: 200px;
-    font-family: "Arial";
+/*about me*/  
+.column1 {
+    margin-top:4%;
+    margin-bottom:4%;
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.column2 {
+    margin-top:4%;
+    margin-bottom:4%;
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.img-responsives{
+    max-width:60%;
+    max-height:60%
+}
+
+.title{
+    text-align: center;
+    font-family: 'Open Sans';
     font-weight: normal;
     font-size: 30px;
-    color: white;
-    letter-spacing: 3px;
+    color: black;
 }
 
-.aboutme .para{
-    margin-left: 200px;
-    margin-right: 200px;
-    font-family: "Arial";
+.para{
+    font-family:  'Open Sans';
     font-weight: normal;
     font-size: 20px;
-    color: white;
-    letter-spacing: 1px;
-    text-align: justify;
+    color: black;
+    text-align: left;
 }
+
 /*my works*/
 .aboutme .title2{
     margin-top: 80px;

@@ -1,8 +1,5 @@
 footer{
     background-color: #2e2c2c;
-    height: 15%;
-    overflow: hidden;
-    margin-top: 0px;
     padding-top: 35px;
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -11,6 +8,9 @@ footer{
     letter-spacing: 2px;
 }
 
+.copyright{
+    margin-top: 2%;
+}
 footer li a img{
     padding-top: -20%;
     height: 30px;

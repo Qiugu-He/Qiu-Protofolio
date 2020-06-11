@@ -2,71 +2,61 @@
 <html>
 <head>
     <title>Qiugu He</title>
-    <link rel = "stylesheet" href = "/css/styles.css">
+    <link rel = "stylesheet" href = "/css/index.css">
     <link rel = "stylesheet" href = "/css/aboutme.css">
     <link rel = "stylesheet" href = "/css/header.css">
     <link rel = "stylesheet" href = "/css/footer.css">
+
+    <!-- Bootstrap and Font-awesome CDN's -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
 </head>
 
 <body>
+    {{>header}}
     <!-- home page  -->
-    <div class = "main-content">
-        {{>header}}
+    <div class = "main-content"> 
         <div class = "homePage1">
-            <h1 class = "homePage1Title">QIUGU  HE</h1>
+            <strong><h1 class = "homePage1Title">QIUGU  HE</h1></strong>
             <li style = "display: inline-block"><a href = "https://github.com/Qiugu-He">
                 <img src = '/image/github.png'/></a> </li>
             <li style ="display: inline-block"><a href = "https://www.linkedin.com/in/qiugu-he">
                 <img src = '/image/linkedIn.png'/></a> </li>
             <li style ="display: inline-block"><a href = "/contact">
-            <img src = '/image/email.png'/></a> </li>
-            <p class = "homePage1Para">I am a self learning software developer with recently finished B.Sc of Computer Science Degree from University of Manitoba. 
-                I mainly focused on software/Web and database development. I strive to build immersive applications through carefully design and created code to user.
+                <img src = '/image/email.png'/></a> </li>
+            <p class = "homePage1Para">
+                Experienced Junior Software Developer, experienced in Front-end Application and Database development. Bachelor's Degree in Computer Science from University of Manitoba
             </p>
         </div>
-        <div class = "readMore">
-            <p>Read More</p>
-            <a><img  class = "bounce" src = '/image/downar.png'/> </a>
+         <canvas class="animation"></canvas>  
+    </div>
+
+    <!-- About me  -->
+    <div class = "aboutme">
+        <div class = "row">
+            <div class = "column1"> 
+               <center><img src="/image/me6.jpg" id="portPic" alt="Simple icon" class="img-responsives
+                img-circle"></center>
+            </div>
+            <div class = "column2">
+                <h1 class = "title ">About Me</h1>
+                <p class = "para"> Hello! I am a Computer Science new grad this year and I am passionated about Front-end and Database development. I
+                    love learning new software technologies and also interested in developing multi platform application.
+               <br><br>
+               In my spare time, I like to read, build apps, workout and give back to community by volunntering local/campus events. 
+                In the future, I hope I can create something that shows people the beauty behind the design.</p>
+            </div>
         </div>
     </div>
-    <div class = "aboutme">
-        <h1 class = "title">ABOUT ME</h1>
-        <p class = "para"> I was never the best at school or academics, I'm just a super curious guy about learning new things. Under the fast-paced digital  environment, 
-            I learned that continuing to learn new technology and self-improvement is the way a developer can succeed, therefore, besides my academic studies, 
-            I self-taught web development frameworks such as APS.NET MVC, ReactJS, AngularJs, and API development. At this Feb, I finished BSc degree from Univeristy. 
-            I looking forward and already prepared well to accepting new challenges and meet new friends in the future! ^^</p>
-        <h1 class = "title2">MY_WORKS && SENIOR COURSES TAKEN</h1>
-            <ul>
-                <li>Online Rental System (C#/ASP.Net/JQuery/API)</li>
-                <li>RVH Database (Oracle/SQL)</li>
-                <li>Taxi Pickup App (Java/Android/Real-time API)</li>
-                <li>Weather App (NodeJs/HTML/API/JSON)</li> 
-                <li>Burger Customizer App (ReactJs/HTML/API)</li>
-                <li>Portfolio (NodeJs/HTML)</li>
-            </ul>
-            <ul>
-                <li>Software Engineering</li>
-                <li>Human-Computer Interaction</li>
-                <li>Database Implementation</li>
-                <li>DB Tunnig & Distributed DBMS</li>
-                <li>Computer Networking</li>
-                <li>Object-Oriented Programming</li>
-                <li>Artificial Intelligence and Expert System</li>
-            </ul>
-            
-    </div>
 
-    <div class = "future">
-        <h1 class = "title">FUTURE VENTURES</h1>
-            <li>Security</li>
-            <li>Cloud Service and Cloud Integration tools</li>
-            <li>Integration platforms(e.g. Mulesoft, Sonic, Fuse)</li>
-            <li>Machine Learning/AI</li>
-    </div>
+    <!-- Future Ventures  -->
     {{>footer}}
 
+    <script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>   
     <script src="js/header.js"></script>
+    <script src="js/particles.js"></script>
 </body>
 </html>

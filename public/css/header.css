@@ -13,6 +13,7 @@ header ul{
 }
 header a{
     font-size: 20px;
+    text-shadow:2px 2px 4px #000;
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Lato', sans-serif;
@@ -37,5 +38,7 @@ header a:hover{
   }
   
 .is-sticky a {
-    color:black;
+    color:#182940;
+    text-shadow:2px 2px 4px #182940;
+
 }

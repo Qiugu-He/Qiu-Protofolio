@@ -1,13 +1,11 @@
 body, html{
     height:100vh;
     margin: 0;
-    min-width: 810px;
-    min-height: 600px;
 }
 
 /*------ home -------------*/
 .main-content{
-    background-image: url("../image/bgm1.jpg");
+    background: url("../image/color9.png") center no-repeat;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +14,49 @@ body, html{
     overflow: hidden;
     margin: auto;
 }
+
+/*home - content 1*/
+.homePage1{
+    clear: both;
+    margin-top: 12%;
+    margin-right: 18%;
+    margin-left: 18%;
+    padding: 15px;
+
+    text-shadow:2px 2px 4px #000;
+    text-align: center;
+    font-size: 1em;
+    font-family: "Arial";
+    color: #F2F2F2;
+}
+.homePage1Title{
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.homePage1 li a img{
+    padding-top: -20%;
+    height: 30px;
+}
+
+.homePage1Para{
+    margin-left: 8%;
+    margin-right:8%;
+    font-size: 1.7em;
+    font-weight: normal;
+    text-align: justify;
+    text-align-last: center;
+    letter-spacing: 1px;
+    
+}
+.animation{
+    z-index:1;
+}
+
 /*read more*/
+/*
 .main-content .readMore{
     margin-top: 7%;
     margin-left: 44%;
@@ -53,41 +93,7 @@ body, html{
       transform: translateY(-15px);
     }
   }
-/*home - content 1*/
-.main-content .homePage1{
-    clear: both;
-    margin-top: 18%;
-    margin-right: 18%;
-    margin-left: 17%;
-    width: 60%;
-    padding: 15px;
-
-    text-align: center;
-    font-size: 1em;
-    font-family: "Arial";
-    color: white;
-}
-.homePage1Title{
-    text-align: center;
-    font-size: 2.2em;
-    font-weight: normal;
-    letter-spacing: 1px;
-}
-
-.homePage1 li a img{
-    padding-top: -20%;
-    height: 30px;
-}
-
-.homePage1Para{
-    margin-left: 8%;
-    margin-right:8%;
-    font-size: 1.5em;
-    font-weight: normal;
-    text-align: justify;
-    text-align-last: center;
-    letter-spacing: 1px;
-}
+*/
 
 .notFound{
     background-color: white;
