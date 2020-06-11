@@ -7,11 +7,15 @@
     <link rel = "stylesheet" href = "/css/header.css">
     <link rel = "stylesheet" href = "/css/footer.css">
 
-    <!-- Bootstrap and Font-awesome CDN's -->
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+    
+    <!-- bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- google front -->
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
 </head>
 
@@ -42,7 +46,8 @@
                 img-circle"></center>
             </div>
             <div class = "column2">
-                <h1 class = "title ">About Me</h1>
+                <h1 class = "title ">About Me   <i class="fas fa-robot"></i></h1>
+                <hr>
                 <p class = "para"> Hello! I am a Computer Science new grad this year and I am passionated about Front-end and Database development. I
                     love learning new software technologies and also interested in developing multi platform application.
                <br><br>
@@ -52,9 +57,59 @@
         </div>
     </div>
 
-    <!-- Future Ventures  -->
+    <!-- Skills  -->
+    <div class = "skills">
+        <div class  = "skillcontainer">
+            <h1 class = "title ">Skills   <i class="fas fa-cogs"></i></h1>
+            <hr>
+            <div class = "skillCol"> 
+                <p class = "para"><i class="fas fa-desktop"></i>  Programming Languages</p>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>C#/C++</li>
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                </ul>
+                <br>
+            </div>
+
+            <div class = "skillCol">
+                <p class = "para"><i class="fas fa-folder"></i>  Frameworks & Concepts</p>
+                <ul>
+                    <li>ReactJS/NodeJs</li>
+                    <li>ASP.NET MVC</li>
+                    <li>Visual Studio/ Android Studio</li>
+                    <li>Agile Methodologies</li>
+                    <li>Objected Oriented Programming</li>
+                    <li>Bootstrap</li>
+                </ul>
+                <br>            
+            </div>
+            <div class = "skillCol">
+                <p class = "para"><i class="fas fa-cloud"></i>   Database & Services</p>
+                <ul>
+                    <li>Github/AWS/Firebase</li>
+                    <li>Oracle SQL / PostgreSQL </li>
+                    <li>Microsoft SQL Server </li>
+                    <li>RESTful API </li>
+                </ul>
+                <br>            
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
     {{>footer}}
 
+    <script src="https://kit.fontawesome.com/a10dd7dd95.js" crossorigin="anonymous"></script>
     <script src="https://npmcdn.com/particlesjs@2.0.2/dist/particles.min.js"></script>   
     <script src="js/header.js"></script>
     <script src="js/particles.js"></script>
