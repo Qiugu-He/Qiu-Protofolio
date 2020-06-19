@@ -26,8 +26,8 @@ app.get('', (req, res)=>{
     })  //render for hbs, so not send
 })
 
-app.get('/project', (req, res)=>{
-    res.render('project', {
+app.get('/blog', (req, res)=>{
+    res.render('blog', {
         //title: 'project page',
         name: 'QIUGU HE'
     })  
