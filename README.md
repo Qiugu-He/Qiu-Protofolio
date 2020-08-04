@@ -1,5 +1,5 @@
 # Personal Website
-NodeJS verson of my personal website. This is still in early development and will be updated frequently.
+For live hosting, please visit: https://qiugu.herokuapp.com/
 
 # Get started
 - Install node js on your machine
