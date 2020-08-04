@@ -1,3 +1,5 @@
+<img src="https://github.com/Qiugu-He/Qiu-Protofolio/blob/master/ProfileHomePage.png" alt="alt text" width="100%" height="100%">
+<br/>
 # Personal Website
 For live hosting, please visit: https://qiugu.herokuapp.com/
 
